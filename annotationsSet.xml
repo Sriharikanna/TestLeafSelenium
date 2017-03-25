@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Classeswithallannotations">
+  <test name="Test">
+    <classes>
+      <class name="testNG.Annotations3"/>
+      <class name="testNG.Annotations1"/>
+      <class name="testNG.Annotations2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Classeswithallannotations -->

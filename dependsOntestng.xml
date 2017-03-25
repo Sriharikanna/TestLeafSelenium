@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DependsOn">
+	<test name="DEdependsOnC">
+		<classes>
+			<class name="testNG.CreateLead" />
+			<class name="testNG.EditLeads" />			
+			<class name="testNG.DeleteLeads" />
+		</classes>
+	</test> <!-- DEdependsOnC -->
+</suite> <!-- DependsOn -->
