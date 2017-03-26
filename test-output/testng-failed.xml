@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testNG.DeleteLeads">
+      <class name="testNG.Attributes.InvocationTimeOut">
         <methods>
-          <include name="loginleaftaps"/>
-          <include name="deleteLeads"/>
-          <include name="closeBrowserLeafTaps"/>
+          <include name="createLead"/>
         </methods>
-      </class> <!-- testNG.DeleteLeads -->
+      </class> <!-- testNG.Attributes.InvocationTimeOut -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
